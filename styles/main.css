@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia')
+word{/*I seem to need a tag separating the @import from the rest of my stuff*/}
+body{
+  font-family:Helvetica,sans-serif;
+  /*margin:0px;*/
+  padding:0px;
+}
+a{
+  color:black;
+}
+header{
+  border-radius: 5px;
+  background-color:#871F0D;
+  position: fixed;
+  height:100px;
+  width: 100%;
+  margin-bottom: 200px;
+  /*padding:5px;*/
+  margin-top: -140px;
+
+
+}
+
+header h2{
+  float: left;
+    /*clear:both;*/
+}
+header a{
+   text-align:left;
+   vertical-align: top;
+   text-decoration: none;
+   font-family: Helvetica,sans-serif;
+
+ }
+/*nav ul text-decoration none text-aling right*/
+
+nav ul{
+
+  vertical-align:top;
+  float:right;
+  clear:both;
+  position:absolute;
+  right:0px;
+  margin-right: 50px;
+  /*width:120px;*/
+}
+nav li{
+  list-style: none;
+  display:inline-block;
+   font-weight: bolder;
+   padding: 5px;
+   /*padding: 1%;*/
+
+ }
+
+
+
+#title{
+   height: 400px;
+   width: 100%;
+   clear:both;
+  /*top:40;*/
+   margin-top:140px;
+   border: solid;
+   text-align: center;
+   /*background-color: #D4432A;*/
+   border-radius: 5px;
+   font-size: 90px;
+   font-family:'Sophia',cursive;
+
+ }
+
+
+article{
+  display:inline-block;
+  width: 20%;
+  padding: 1%;
+  border: solid;
+  border-radius: 10px;
+  vertical-align: top;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+article h3 {
+  border-bottom: solid;
+  border-width: 1px;
+  padding: 1;
+}
+
+section.posts > h2:first-child{
+  font-family:Helvetica,serif;
+  text-align: center;
+  text-shadow: 5px;
+  font-size: 35px;
+}
+
+article h3, article p{
+  margin: 5%;
+  vertical-align: top;
+  text-align: center;
+}
+
+p > a{
+  border: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding:2%
+}
+
+/*.join the club */
+section.chair-cat{
+  /*position:fixed;*/
+  /*width: 100%;*/
+  height: 180%;
+  border: solid;
+}
+section.chair-cat p{
+  position:absolute;
+  /*top:10px;*/
+  left:10px;
+  width:25%;
+  border:solid;
+  margin:0px;
+}
+section.chair-cat img{
+  margin:0px
+  float:right;
+  top: 2%;
+  right:70%;
+
+  height:100px;
+
+}
+/*section:last-of-type border-style*/
+/*ul to right*/
+/*p to left*/
